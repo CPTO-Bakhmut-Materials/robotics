@@ -1,0 +1,61 @@
+site_name: Вступ до Webots
+site_description: Самостійний курс-знайомство з симулятором роботів Webots
+docs_dir: docs
+exclude_docs: SUMMARY.md   # використовується лише як зміст (literate-nav)
+
+theme:
+  name: material
+  language: uk
+  icon:
+    logo: material/robot-outline
+  favicon: images/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Темна тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Світла тема
+  features:
+    - navigation.instant
+    - navigation.footer      # посилання «Попередня / Наступна» внизу сторінки
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - literate-nav:           # зміст береться з docs/SUMMARY.md
+      nav_file: SUMMARY.md
+  - glightbox:              # клік по скріншоту відкриває його на весь екран
+      zoomable: true
+      skip_classes:
+        - no-zoom
+
+markdown_extensions:
+  - admonition              # блоки !!! info / warning / danger / success
+  - pymdownx.details        # згортані блоки ??? (відповіді на питання)
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
