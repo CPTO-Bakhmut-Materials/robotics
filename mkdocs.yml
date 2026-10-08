@@ -1,5 +1,8 @@
 site_name: Вступ до Webots
 site_description: Самостійний курс-знайомство з симулятором роботів Webots
+site_url: https://cpto-bakhmut-materials.github.io/robotics/
+repo_url: https://github.com/CPTO-Bakhmut-Materials/robotics
+repo_name: CPTO-Bakhmut-Materials/robotics
 docs_dir: docs
 exclude_docs: SUMMARY.md   # використовується лише як зміст (literate-nav)
 
