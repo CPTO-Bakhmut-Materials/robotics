@@ -6,6 +6,8 @@ Self-study course (in Ukrainian), built with [MkDocs](https://www.mkdocs.org/) +
 - Navigation: `docs/SUMMARY.md`
 - Screenshots: `docs/images/`
 - Config: `mkdocs.yml`
+- Starter projects: `projects/urok-NN/` (state at the start of lesson NN); `tools/mkdocs_hooks.py` zips them into `docs/downloads/urok-NN.zip` on every build (generated, not committed)
+- Screenshot tooling: `tools/screenshots/` (`ui.py` drives the live Webots window on Hyprland, `annotate.py` + `specs.py` turn raw captures into `docs/images/`)
 
 ## Build
 

@@ -6,6 +6,9 @@ repo_name: CPTO-Bakhmut-Materials/robotics
 docs_dir: docs
 exclude_docs: SUMMARY.md   # використовується лише як зміст (literate-nav)
 
+hooks:
+  - tools/mkdocs_hooks.py   # пакує projects/urok-NN/ у docs/downloads/urok-NN.zip
+
 theme:
   name: material
   language: uk

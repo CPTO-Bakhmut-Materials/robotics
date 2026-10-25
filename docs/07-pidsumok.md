@@ -26,6 +26,7 @@
 
 ## Що далі
 
-1. Перегляньте демонстраційні світи: **Help → Webots Guided Tour...** та **File → Open Sample World...**
-2. Пройдіть офіційні навчальні уроки Webots ([Tutorials](https://cyberbotics.com/doc/guide/tutorials)). Урок 1 ви вже майже виконали, у ньому далі пояснюється, як написати власний контролер.
-3. Подивіться, що інші створили в Webots, на [webots.cloud](https://webots.cloud).
+1. Переходьте до модуля 2: в [уроці 3](modul-2/urok-03-pershyi-kontroler.md) ви напишете власну програму для робота.
+2. Перегляньте демонстраційні світи: **Help → Webots Guided Tour...** та **File → Open Sample World...**
+3. Пройдіть офіційні навчальні уроки Webots ([Tutorials](https://cyberbotics.com/doc/guide/tutorials)). Урок 1 ви вже майже виконали, у ньому далі пояснюється, як написати власний контролер.
+4. Подивіться, що інші створили в Webots, на [webots.cloud](https://webots.cloud).
